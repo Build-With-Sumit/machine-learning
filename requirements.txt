@@ -1,0 +1,6 @@
+# TensorFlow ML POC suite — Python 3.11 (TF has no 3.14 wheels)
+tensorflow==2.17.0
+pandas
+scikit-learn
+numpy
+matplotlib
