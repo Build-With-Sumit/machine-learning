@@ -76,15 +76,6 @@ they're documented, not hidden:
 Full engineer-facing walkthroughs in [`docs/`](docs/) — including a from-scratch
 [explainer](docs/explainer.html) for readers with no ML background.
 
-## Bonus — a Claude Code skill for video vision
-
-[`claude-video-eyes/`](claude-video-eyes) is a small, self-contained
-[Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill (not a TF POC):
-`yt-dlp` + `ffmpeg` rip evenly-spaced keyframes from any video and Claude **reads
-the frames** alongside the transcript — so it sees the cuts, on-screen text and
-visual hook a transcript-only tool misses. Fully local, zero API cost. See its
-[README](claude-video-eyes/README.md).
-
 ## Stack
 TensorFlow 2.17 / Keras 3 · scikit-learn (splits, metrics, gradient boosting) ·
 pandas / NumPy · matplotlib. CPU-only, Python 3.11. MIT licensed.
